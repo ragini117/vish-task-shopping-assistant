@@ -1,0 +1,15 @@
+# Secrets
+.env
+.streamlit/secrets.toml
+
+# Generated FAISS index (rebuilt automatically from the CSV)
+rag/vectorstore/faiss_index/
+rag/vectorstore/faiss_index_tmp/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
